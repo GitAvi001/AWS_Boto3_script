@@ -1,8 +1,7 @@
 #Automated script to listing the all users in IAM 
 
-
 import boto3
-#Automted way to access the AWS management console using boto3 library
+#Automated way to access the AWS management console using boto3 library
 aws_management_console = boto3.session.Session(profile_name="default")
 
 #Moving to the IAM console
